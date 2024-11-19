@@ -4,12 +4,13 @@
 box-sizing: border-box;
 background-color:#7FC8F8 ;
 font-family: 'Poppins';
+flex-wrap: wrap;
 }
 .imagem-squirtle {
     width:200px;
     height: 200px;
     border-radius: 50%;
-    object-fit: cover; /* Ajusta o conteúdo dentro do contêiner */
+    object-fit: cover; 
     position: absolute; 
     bottom: 0; 
     right: 0; 
@@ -97,6 +98,8 @@ button {
   background: var(--color);
   color: var(--color-dark);
   padding: 0.8rem 1.6rem;
+  gap: 20px;
+  margin-bottom: 20px;
 }
 
 button:hover,
@@ -119,3 +122,17 @@ hr {
   border: 2px solid black;
   margin: 2rem auto;
 }
+
+@media (max-width: 768px) {
+    button {
+        gap: 10px;
+        margin-bottom: 10px;
+        justify-content: center; 
+        align-items: center;
+    }
+    .imagem-squirtle{
+        width:100px;
+        height: 100px;
+    }
+  }
+  
