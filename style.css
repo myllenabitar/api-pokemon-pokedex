@@ -2,11 +2,24 @@
 *::after,
 *::before {
 box-sizing: border-box;
-  background-color: #F2F2F2;
-  justify-content: center; /* Centraliza horizontalmente */
-  align-items: center; /* Centraliza verticalmente */
+background-color:#7FC8F8 ;
+font-family: 'Poppins';
 }
-
+.imagem-squirtle {
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover; /* Ajusta o conteúdo dentro do contêiner */
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    margin: 20px; 
+}
+h1 {
+    font-family: var(--font-title);
+    font-size: 2rem;
+    color: var(--color-dark);
+  }
 html {
   --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
     Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
