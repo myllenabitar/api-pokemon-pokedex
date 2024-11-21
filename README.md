@@ -4,7 +4,7 @@
 Ultima versão: Novembro 2024.
 
 <h2>Descrição de Projeto</h2>
-Projeto pessoal, desenvolvido com base em experiências e exemplos do curso de React do Origamid. No projeto temos uma pagina com nomes de personagens do pokemon, onde clicamos eobtemos maiores informações sobre os personagens. Realizado utilizando ‘fetch’ de uma api publica dos personagens da saga.
+Projeto pessoal, desenvolvido com base em experiências e exemplos do curso de React do Origamid, com intenção de consolidar aprendizado. No projeto temos uma pagina com nomes de personagens do pokemon, onde clicamos eobtemos maiores informações sobre os personagens. Realizado utilizando ‘fetch’ de uma api publica dos personagens.
 
 <h2>Status do Projeto</h2><h4 align="center">:star: Projeto Concluído! :star:</h4>
 
